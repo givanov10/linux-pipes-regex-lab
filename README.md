@@ -12,7 +12,6 @@ The Solution Command
 
 bash
 egrep -v '^#' /etc/services | cut -f1 | egrep -v '^$' | sort -u > uniqueservices.txt
-Use code with caution.
 
 How It Works (Step-by-Step Breakdown)
 
